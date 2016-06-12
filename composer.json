@@ -1,0 +1,31 @@
+{
+  "name": "vsavritsky/redirector",
+  "description": "redirector interface and base classes",
+  "keywords": ["redirector interface"],
+  "homepage": "https://github.com/vsavritsky/redirector",
+  "license" : "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Savritsky"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "league/csv": "^8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8|^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vsavritsky\\Redirector\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
